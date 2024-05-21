@@ -9,6 +9,7 @@ namespace Application.Contract
 {
     public interface ITask
     {
+        /*
         Task<List<Tasks>> GetAllAsync();
 
         Task<Tasks> GetByIdAsync(int Id);
@@ -18,6 +19,6 @@ namespace Application.Contract
         Task<int> UpdateAsync(int id, Tasks task);
 
         Task <int> DeleteAsync(int id);
-
+        */
     }
 }

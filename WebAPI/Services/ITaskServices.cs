@@ -9,6 +9,7 @@ namespace Application.Services
 {
     public  interface ITaskServices
     {
+        /*
         Task<List<Tasks>> GetAllAsync();
 
         Task<Tasks> GetByIdAsync(int Id);
@@ -19,7 +20,7 @@ namespace Application.Services
 
         Task<int> DeleteAsync(int id);
 
-
+        */
 
     }
 }

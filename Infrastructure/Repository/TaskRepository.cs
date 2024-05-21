@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repository
 {
+    /*
     public class TaskRepository : ITask
     {
         private readonly AppDbContext _taskDbContext;
@@ -61,4 +62,5 @@ namespace Infrastructure.Repository
 
         }
     }
+    */
 }

@@ -8,6 +8,7 @@ namespace Domain.Entities
 {
     public class Tasks
     {
+        /*
         public int Id { get; set; }
 
         public string Name { get; set; }
@@ -17,6 +18,6 @@ namespace Domain.Entities
         public string NumberOfTask { get; set; }
         public string Description { get; set; }
        public DateTime DateOfTask { get; set;}
-
+        */
     }
 }

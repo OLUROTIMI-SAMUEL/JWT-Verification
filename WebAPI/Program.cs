@@ -18,9 +18,9 @@ var builder = WebApplication.CreateBuilder(args);
 /////
 ///
 
-builder.Services.AddTransient<ITask, TaskRepository>();
+//builder.Services.AddTransient<ITask, TaskRepository>();
 
-builder.Services.AddTransient<ITaskServices, TaskServices>();
+//builder.Services.AddTransient<ITaskServices, TaskServices>();
 
 
 builder.Services.AddControllers();
@@ -84,3 +84,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+//Please not you must always put a "Bearer" before the authentication taken and there should be a space between "Bearer" and the token 

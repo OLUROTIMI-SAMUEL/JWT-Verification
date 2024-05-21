@@ -16,7 +16,7 @@ namespace Infrastructure.Data
         }
         public DbSet<ApplicationUser> Users { get; set; }
 
-        public DbSet<Domain.Entities.Tasks> Tasks { get; set; }
+      //  public DbSet<Domain.Entities.Tasks> Tasks { get; set; }
 
     }
 }

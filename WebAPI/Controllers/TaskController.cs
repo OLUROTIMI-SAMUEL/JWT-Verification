@@ -1,5 +1,4 @@
-﻿using Application.Contract;
-using Application.Services;
+﻿using Application.Services;
 using Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +17,7 @@ namespace WebAPI.Controllers
             this.taskservice = taskservice;
         }
         */
-
+/*
         private readonly ITaskServices taskservice;
 
         public TaskController(ITaskServices taskservice)
@@ -76,6 +75,6 @@ namespace WebAPI.Controllers
             return NoContent();
         }
 
-
+*/
     }
 }
